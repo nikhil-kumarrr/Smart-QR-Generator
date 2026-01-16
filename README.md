@@ -58,9 +58,6 @@ custom-qr-generator/
 └── assets/
     └── screenshot.png
 ```
-## 🌐 Live Demo
-
 
 ## Screenshots
-
-![img alt]()
+![img alt](https://github.com/nikhil-kumarrr/images/blob/main/Screenshot%202026-01-16%20130006.png?raw=true)
