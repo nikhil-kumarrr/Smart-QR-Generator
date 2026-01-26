@@ -11,12 +11,7 @@ st.set_page_config(
 # ===== Custom CSS =====
 st.markdown("""
 <style>
-/* Full background */
-.stApp {
-    background: #BDDDFC;
-}
-
-/* Center card */
+.stApp { background: #BDDDFC; }
 .card {
     background: rgba(255, 255, 255, 0.6);
     padding: 30px;
@@ -24,30 +19,9 @@ st.markdown("""
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
     backdrop-filter: blur(8px);
 }
-
-/* Title */
-.title {
-    text-align: center;
-    font-size: 34px;
-    font-weight: 800;
-    color: #0f172a;
-}
-
-/* Subtitle */
-.subtitle {
-    text-align: center;
-    color: #334155;
-    margin-bottom: 25px;
-    font-size: 15px;
-}
-
-/* Footer */
-.footer {
-    text-align: center;
-    color: #475569;
-    font-size: 13px;
-    margin-top: 20px;
-}
+.title { text-align: center; font-size: 34px; font-weight: 800; color: #0f172a; }
+.subtitle { text-align: center; color: #334155; margin-bottom: 25px; font-size: 15px; }
+.footer { text-align: center; color: #475569; font-size: 13px; margin-top: 20px; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -55,16 +29,10 @@ st.markdown("""
 st.markdown('<div class="card">', unsafe_allow_html=True)
 
 st.markdown('<div class="title">Smart QR Generator</div>', unsafe_allow_html=True)
-st.markdown(
-    '<div class="subtitle">Generate professional, scannable QR codes for URLs</div>',
-    unsafe_allow_html=True
-)
+st.markdown('<div class="subtitle">Generate professional, scannable QR codes for URLs</div>', unsafe_allow_html=True)
 
-url = st.text_input(
-    "Enter the URL",
-    placeholder="https://example.com"
-)
-
+# Input
+url = st.text_input("Enter the URL", placeholder="https://example.com")
 generate = st.button("Generate QR", use_container_width=True)
 
 if generate:
@@ -74,14 +42,16 @@ if generate:
         qr_path = generate_qr(url)
         st.success("QR Generated Successfully")
 
+        # Load & resize image
         img = Image.open(qr_path)
-        img = img.resize((230, 230))  # controlled size
+        img = img.resize((230, 230))
 
-        # ---- CENTER ALIGN QR ----
-        col1, col2, col3 = st.columns([1, 2, 1])
+        # Center display
+        col1, col2, col3 = st.columns([1,2,1])
         with col2:
             st.image(img, caption="Scan this QR")
 
+        # Download button
         with open(qr_path, "rb") as f:
             st.download_button(
                 label="Download QR Code",
