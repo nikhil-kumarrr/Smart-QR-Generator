@@ -59,5 +59,8 @@ custom-qr-generator/
     └── screenshot.png
 ```
 
+## 🌐 Live Demo
+https://smartqrgenerator.streamlit.app/
+
 ## Screenshots
 ![img alt](https://github.com/nikhil-kumarrr/images/blob/main/Screenshot%202026-01-16%20130006.png?raw=true)
