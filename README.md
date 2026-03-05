@@ -8,7 +8,7 @@ Generate clean, scannable QR codes instantly with a minimal and professional UI.
 -  Custom styled interface (CSS + Streamlit)
 -  One-click PNG download
 -  URL validation
-- 📱 Responsive design
+-  Responsive design
 
 ## 🛠 Tech Stack
 - Python 3.x
