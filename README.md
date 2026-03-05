@@ -2,7 +2,7 @@
 A modern, lightweight QR Code Generator built with Python and Streamlit.
 Generate clean, scannable QR codes instantly with a minimal and professional UI.
 
-## 🚀 Features
+##  Features
 - ⚡ Instant QR generation
 - 🎯 Centered, clean UI layout
 - 🎨 Custom styled interface (CSS + Streamlit)
