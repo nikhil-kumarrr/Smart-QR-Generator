@@ -5,7 +5,7 @@ Generate clean, scannable QR codes instantly with a minimal and professional UI.
 ##  Features
 -  Instant QR generation
 -  Centered, clean UI layout
-- 🎨 Custom styled interface (CSS + Streamlit)
+-  Custom styled interface (CSS + Streamlit)
 - ⬇️ One-click PNG download
 - 🔒 URL validation
 - 📱 Responsive design
