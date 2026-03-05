@@ -7,7 +7,7 @@ Generate clean, scannable QR codes instantly with a minimal and professional UI.
 -  Centered, clean UI layout
 -  Custom styled interface (CSS + Streamlit)
 -  One-click PNG download
-- 🔒 URL validation
+-  URL validation
 - 📱 Responsive design
 
 ## 🛠 Tech Stack
