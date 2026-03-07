@@ -16,7 +16,7 @@ Generate clean, scannable QR codes instantly with a minimal and professional UI.
 - Pillow (PIL)
 - Custom CSS for UI
 
-## 📦 Installation & Setup
+## Installation & Setup
 ### 1️⃣ Clone the repository
 ```
 git clone https://github.com/your-username/custom-qr-generator.git
