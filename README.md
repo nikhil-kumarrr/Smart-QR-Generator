@@ -47,7 +47,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## 📁 Project Structure
+##  Project Structure
 ```
 custom-qr-generator/
 │
