@@ -59,7 +59,7 @@ custom-qr-generator/
     └── screenshot.png
 ```
 
-## 🌐 Live Demo
+##  Live Demo
 https://smartqrgenerator.streamlit.app/
 
 ## Screenshots
