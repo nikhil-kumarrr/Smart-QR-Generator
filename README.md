@@ -10,7 +10,7 @@ Generate clean, scannable QR codes instantly with a minimal and professional UI.
 -  URL validation
 -  Responsive design
 
-## 🛠 Tech Stack
+##  Tech Stack
 - Python 3.x
 - Streamlit
 - Pillow (PIL)
